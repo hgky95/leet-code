@@ -1,4 +1,4 @@
-package ds_al.linkedlist;
+package data_structure;
 
 public class LinkedList {
     private Node head;

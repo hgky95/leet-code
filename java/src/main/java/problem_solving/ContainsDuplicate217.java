@@ -1,3 +1,5 @@
+package problem_solving;
+
 import java.util.*;
 
 public class ContainsDuplicate217 {
