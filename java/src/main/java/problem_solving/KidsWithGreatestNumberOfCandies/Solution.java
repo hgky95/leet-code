@@ -30,9 +30,5 @@ public class Solution {
         return Arrays.stream(candies).mapToObj(candy -> (candy + extraCandies) >= maxCandy)
                 .collect(Collectors.toList());
     }
-
-    public static void main(String[] args) {
-        System.out.println(Solution.kidsWithCandiesJava8(new int[]{12, 1, 12}, 10));
-    }
     
 }
