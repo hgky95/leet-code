@@ -59,11 +59,4 @@ public class Solution {
         return maxNumOfConsecutive;
     }
 
-    public static void main(String[] args) {
-        Solution x = new Solution();
-        int rs = x.longestOnes(new int[]{1,1,1,0,0,0,1,1,1,1,0}, 2);
-        int rs2 = x.longestOnesOptimizedTime(new int[]{1,1,1,0,0,0,1,1,1,1,0}, 2);
-        System.out.println(rs);
-        System.out.println(rs2);
-    }
 }
